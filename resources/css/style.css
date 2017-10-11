@@ -1,0 +1,41 @@
+html {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+/** Header CSS **/
+
+header {
+  height: 69px;
+  width: 100%;
+  margin: 0px 10px;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  height: 50px;
+}
+
+nav span a {
+  color: seashell;
+  text-decoration: underline;
+  padding-left: 20px;
+}
+
+/** Main Body CSS **/
+.mission {
+  background-image: url("../images/img-mission-background.jpg");
+}
+
+/** Footer CSS **/
+
+footer {
+  text-align: left;
+}
