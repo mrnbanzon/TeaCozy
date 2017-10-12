@@ -10,13 +10,17 @@ html {
 /** Header CSS **/
 
 header {
+  top: 0;
   height: 69px;
   width: 100%;
   padding: 0px 10px;
   border-bottom: 1px solid seashell;
+  background-color: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  z-index: 10;
 }
 
 header img {
@@ -31,10 +35,12 @@ nav span a {
 
 /** Main Body CSS **/
 .main {
+  margin-top: 70px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  z-index: 5;
 }
 
 .mission {
@@ -46,13 +52,14 @@ nav span a {
   justify-content: center;
 }
 
-.mission h2, .mission h4 {
+  h2,  h4 {
   margin: 0;
   padding: 10px 0px;
   background-color: black;
 }
 
 .monthly-tea {
+  padding: 60px 0px;
   width: 1000px;
   display: flex;
   flex-direction: column;
@@ -71,12 +78,42 @@ nav span a {
   height: 200px;
   width: 300px;
   margin: 0;
-  padding: 0 15px;
+  padding: 10px 15px;
 }
 
-.tea h4 {
-  margin: 0;
-  padding: 10px;
+.locations {
+  height: 500px;
+  width: 1200px;
+  background-image: url("../images/img-locations-background.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.location-list {
+  display: flex;
+  justify-content: center;
+}
+
+.location {
+  margin: 0px 20px;
+  padding: 0;
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.locations h2 {
+  background-color: transparent;
+}
+
+.contact-info {
+  height: 200px;
+  width: 1200px;
 }
 
 /** Footer CSS **/
