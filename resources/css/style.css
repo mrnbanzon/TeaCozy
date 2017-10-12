@@ -20,7 +20,6 @@ header {
   justify-content: space-between;
   align-items: center;
   position: fixed;
-  z-index: 10;
 }
 
 header img {
@@ -40,7 +39,6 @@ nav span a {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  z-index: 5;
 }
 
 .mission {
@@ -52,7 +50,7 @@ nav span a {
   justify-content: center;
 }
 
-  h2,  h4 {
+  .mission h2,  h4 {
   margin: 0;
   padding: 10px 0px;
   background-color: black;
@@ -78,7 +76,7 @@ nav span a {
   height: 200px;
   width: 300px;
   margin: 0;
-  padding: 10px 15px;
+  padding: 10px 15px 0px 15px;
 }
 
 .locations {
@@ -107,9 +105,6 @@ nav span a {
   justify-content: space-around;
 }
 
-.locations h2 {
-  background-color: transparent;
-}
 
 .contact-info {
   height: 200px;
