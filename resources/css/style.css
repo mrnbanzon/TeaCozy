@@ -11,9 +11,9 @@ html {
 
 header {
   top: 0;
+  left: 0;
   height: 69px;
   width: 100%;
-  padding: 0px 10px;
   border-bottom: 1px solid seashell;
   background-color: black;
   display: flex;
@@ -24,12 +24,13 @@ header {
 
 header img {
   height: 50px;
+  padding-left: 10px;
 }
 
 nav span a {
   color: seashell;
   text-decoration: underline;
-  padding-left: 20px;
+  padding: 0px 10px 0px 10px;
 }
 
 /** Main Body CSS **/
@@ -41,7 +42,7 @@ nav span a {
   align-items: center;
 }
 
-.mission {
+#mission {
   height: 700px;
   width: 1200px;
   background-image: url("../images/img-mission-background.jpg");
@@ -50,13 +51,16 @@ nav span a {
   justify-content: center;
 }
 
-  .mission h2,  h4 {
-  margin: 0;
-  padding: 10px 0px;
+#mission h2, #mission h4 {
   background-color: black;
 }
 
-.monthly-tea {
+h2, h3, h4 {
+  margin: 0;
+  padding: 10px 0px;
+}
+
+#monthly-tea {
   padding: 60px 0px;
   width: 1000px;
   display: flex;
@@ -79,7 +83,7 @@ nav span a {
   padding: 10px 15px 0px 15px;
 }
 
-.locations {
+#locations {
   height: 500px;
   width: 1200px;
   background-image: url("../images/img-locations-background.jpg");
@@ -94,9 +98,9 @@ nav span a {
 }
 
 .location {
-  margin: 0px 20px;
+  margin: 10px 20px 0px 20px;
   padding: 0;
-  height: 300px;
+  height: 280px;
   width: 300px;
   background-color: black;
   opacity: 1;
@@ -105,6 +109,9 @@ nav span a {
   justify-content: space-around;
 }
 
+.location h3 {
+  padding-top: 15px;
+}
 
 .contact-info {
   height: 200px;
